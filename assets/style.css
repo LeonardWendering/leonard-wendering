@@ -7,7 +7,8 @@
 
 body {
     font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    line-height: 1.7;
+    font-size: 0.9rem;
+    line-height: 1.65;
     color: #202124;
     background-color: #f8f9fa;
     -webkit-font-smoothing: antialiased;
@@ -48,7 +49,7 @@ header nav ul li a {
     padding: 1rem 1.25rem;
     color: #5f6368;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 500;
     letter-spacing: 0.01em;
     border-bottom: 3px solid transparent;
@@ -67,27 +68,27 @@ header nav ul li a.active {
 
 /* ===== Typography ===== */
 h1 {
-    font-size: 1.75rem;
+    font-size: 1.35rem;
     font-weight: 600;
     color: #202124;
     margin-bottom: 0.5rem;
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     font-weight: 600;
     color: #202124;
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
     border-bottom: 2px solid #1a73e8;
 }
 
 h3 {
-    font-size: 1.05rem;
+    font-size: 0.95rem;
     font-weight: 600;
     color: #202124;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.3rem;
 }
 
 p {
@@ -137,24 +138,24 @@ li {
 }
 
 .home .intro h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 0.25rem;
 }
 
 .home .intro .subtitle {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #5f6368;
     font-weight: 400;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
 }
 
 .home .intro .research-summary {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-style: normal;
     color: #3c4043;
     text-align: left;
     max-width: 640px;
-    margin: 0 auto 1rem;
+    margin: 0 auto 0.75rem;
 }
 
 .home .intro p {
@@ -183,8 +184,8 @@ li {
 }
 
 .paper p, .course p, .project p {
-    font-size: 0.95rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
 }
 
 .paper p:last-child, .course p:last-child, .project p:last-child {
@@ -321,11 +322,11 @@ footer {
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     h2 {
-        font-size: 1.15rem;
+        font-size: 1rem;
     }
 
     .home .intro .headshot {
