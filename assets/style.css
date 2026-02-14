@@ -329,6 +329,17 @@ li {
     color: var(--color-badge-progress-text);
 }
 
+/* ===== Abstract ===== */
+.abstract {
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+    line-height: 1.55;
+    border-left: 3px solid var(--color-border);
+    padding-left: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 /* ===== Note ===== */
 .note {
     font-size: 0.85rem;
