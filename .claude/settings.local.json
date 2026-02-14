@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:osf.io)",
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nRedesign site: dark mode, figures, enriched footer, meta tags\n\n- Add dark mode \\(prefers-color-scheme\\), CSS variables for all colors\n- Add Census paper figures to home page \\(maps + specification curve\\)\n- Add grandmother''s watercolor \\(Atlantic Wave\\) to About Me page\n- Add PDF download for Census preprint on home and research pages\n- Add Bluesky to contact info and footer across all pages\n- Add meta descriptions, Open Graph tags, descriptive titles, alt text\n- Add SVG favicon, enriched footer with social links\n- Remove projects page, remove software section from About Me\n- Shorten teaching descriptions, translate German course titles\n- Remove abstracts from research page, style DOI links as buttons\n- Replace all special dashes and quotes with ASCII equivalents\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
+    ]
+  }
+}
